@@ -48,3 +48,28 @@ students <- c(33L, 15L, 32L, 50L, 20L)
 data_110 <- data.frame(subjects, students)
 data_110
 qplot(data = data_110, y = subjects, geom = "bar")
+
+
+
+# TASK 5
+
+name <- readline("Enter your name: ")
+paste("Welcome", name)
+age <- readline("Enter your age: ")
+print(age)
+
+
+# TASK 6
+
+data89 <- seq(20:50)
+data89_mean <- mean(data89)
+data89_mean
+data89_sum <- sum(data89)
+data89_sum
+
+# TASK 7
+
+vector1 = sample(-50:50, 10,  replace = TRUE)
+print("content of vector:")
+print("10 random integers btw -50 and 50:")
+print(vector1)
